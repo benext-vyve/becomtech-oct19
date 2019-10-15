@@ -11,14 +11,14 @@ virtualenv venv
 source venv/bin/activate
 ```
 
-Ensuite, install les requirements nécessaires à l'application. Installe également l'application en mode éditable.
+Ensuite, installe les packages nécessaires à l'application. Installe également l'application en mode éditable.
 
 ```(sh)
 pip install -r requirements.txt
 pip install -e .
 ```
 
-> Tips: pour vérifier l'installatiom des packages tu peux faire un `pip freeze`.
+> Tips: pour vérifier l'installation des packages tu peux faire un `pip freeze`.
 
 ## I. Implémente la classe _Model_
 
